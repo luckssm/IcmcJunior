@@ -1,0 +1,280 @@
+<!--	Site Portfólio - processo seletivo ICMC Júnior
+		Autor: Lucas Silva Marcondes
+-->
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <title>Minha Vida</title>
+  
+  <!--
+	Definicao das propriedades das imagens e dos textos da pagina. 
+-->
+  <style>
+  h1 {
+	text-align:center;
+	color:red;
+  }
+  
+  .familia_text{
+	position: absolute; 
+	left: 220px; 
+	top: 130px;
+	width: 300px;
+    height: 100px;    
+    padding: 0px;
+    border: ;
+    box-sizing: border-box;
+  }
+  
+  .familia_image{
+	position: absolute; 
+	left: 10px; 
+	top: 150px;
+  }
+  
+  .musica_text{
+	position: absolute; 
+	left: 870px; 
+	top: 130px;
+	width: 300px;
+    height: 100px;    
+    padding: 0px;
+    border: ;
+    box-sizing: border-box;
+  }
+  
+  .musica_image{
+	position: absolute; 
+	left: 650px; 
+	top: 150px;
+	}
+	
+  .educacao_text{
+	position: absolute; 
+	left: 220px; 
+	top: 450px;
+	width: 300px;
+    height: 100px;    
+    padding: 0px;
+    border: ;
+    box-sizing: border-box;
+  }
+  
+  .educacao_image{
+	position: absolute; 
+	left: 10px; 
+	top: 450px;
+  }
+  
+  .usp_text{
+	position: absolute; 
+	left: 870px; 
+	top: 450px;
+	width: 300px;
+    height: 100px;    
+    padding: 0px;
+    border: ;
+    box-sizing: border-box;
+  }
+  
+  .usp_image{
+	position: absolute; 
+	left: 650px; 
+	top: 450px;
+  }
+  
+  .tenis_text{
+	position: absolute; 
+	left: 220px; 
+	top: 800px;
+	width: 300px;
+    height: 100px;    
+    padding: 0px;
+    border: ;
+    box-sizing: border-box;
+  }
+  
+  .tenis_image{
+	position: absolute; 
+	left: 10px; 
+	top: 800px;
+  }
+  
+   .interrogacao_text{
+	position: absolute; 
+	left: 870px; 
+	top: 800px;
+	width: 300px;
+    height: 100px;    
+    padding: 0px;
+    border: ;
+    box-sizing: border-box;
+  }
+  
+  .interrogacao_image{
+	position: absolute; 
+	left: 650px; 
+	top: 800px;
+  }
+  
+  .links_text{
+	position: absolute; 
+	left: 10px; 
+	top: 1100px;   
+  }
+  </style>
+</head>
+
+<body style="background-color:lightblue;">
+
+<!--
+	Definicao do título da pagina. 
+-->
+<h1> A Minha Vida em 5 imagens ou mais</h1>
+
+<!--
+	Definicao das imagens e dos textos da pagina. 
+-->
+<div class = "familia_image" > 
+    <img src="Familia.jpg" width="200" height="100" onclick="familiaClick();" style="cursor: pointer;" />
+</div>
+
+<div class = "familia_text" > 
+	<p id="familia" style = "text-indent: 5px;" align = "justify"></p>
+</div>
+
+<div class = "musica_image" > 
+    <img src="RHCP.jpg" width="150" height="150" onclick="musicaClick();" style="cursor: pointer;" />
+</div>
+
+<div class = "musica_text" > 
+	<p id="musica" style = "text-indent: 5px;" align = "justify"></p>
+</div>
+
+
+<div class = "educacao_image" > 
+    <img src="Canudo.jpg" width="150" height="150" onclick="educacaoClick();" style="cursor: pointer;" />
+</div>
+
+<div class = "educacao_text" > 
+	<p id="educacao" style = "text-indent: 5px;" align = "justify"></p>
+</div>
+
+
+<div class = "usp_image" > 
+    <img src="Usp.jpg" width="150" height="150" onclick="uspClick();" style="cursor: pointer;" />
+</div>
+
+<div class = "usp_text" > 
+	<p id="usp" style = "text-indent: 5px;" align = "justify"></p>
+</div>
+
+
+<div class = "tenis_image" > 
+    <img src="Tenis.jpg" width="200" height="150" onclick="tenisClick();" style="cursor: pointer;" />
+</div>
+
+<div class = "tenis_text" > 
+	<p id="tenis" style = "text-indent: 5px;" align = "justify"></p>
+</div>
+
+<div class = "interrogacao_image" > 
+    <img src="Interrogacao.jpg" width="150" height="150" onclick="interrogacaoClick();" style="cursor: pointer;" />
+</div>
+
+<div class = "interrogacao_text" > 
+	<p id="interrogacao" style = "text-indent: 5px;" align = "justify"></p>
+</div>
+
+<!--
+	Links das imagens utilizadas na pagina. Ao clicar, abre uma nova guia.
+-->
+<div class = "links_text" > 
+	<p id="interrogacao" style = "text-indent: 5px;">Todos os links das imagens utilizadas neste "site":<br>
+		<a href="http://fabricadementes.com/colunas/familiar/5-passos-para-ter-um-bom-relacionamento-com-sua-familia/" target="_blank">Família feliz</a>
+		<a href="http://vestibulares2016.com.br/vestibular-da-usp-2016/" target="_blank">USP</a>
+		<a href="http://www.istockphoto.com/br/fotos/diploma?excludenudity=true&sort=mostpopular&mediatype=photography&phrase=diploma" target="_blank">Objeto cobiçado</a>
+		<a href="https://www.youtube.com/user/RHCPtv" target="_blank">Melhor banda</a>
+		<a href="https://regrasdoesporte.com.br/regras-do-jogo-de-tenis-como-jogar-tenis.html" target="_blank">Tênis</a>
+		<a href="http://br.freepik.com/icones-gratis/ponto-de-interrogacao_731610.htm" target="_blank">Charada</a> 
+	</p>
+
+
+</div>
+<!-- Script para mostrar texto ao clicar na imagem. Ao clicar novamente, o texto é ocultado.
+-->
+<script>
+var familia_var = 1;
+function familiaClick() {
+	if(familia_var){
+		document.getElementById("familia").innerHTML = "Primeiramente, o que mais me influenciou (e influencia) e me fez chegar onde estou, minha família. Da direita para a esquerda: minha mãe, meu avô, minha avó... ok, não são minha família mesmo, só uma imagem que peguei da internet. Mas deu pra entender a ideia. ";
+		familia_var = 0;
+	}else{
+				document.getElementById("familia").innerHTML = "";
+				familia_var = 1;
+	}	
+}
+
+var musica_var = 1;
+function musicaClick() {
+	if(musica_var){
+		document.getElementById("musica").innerHTML = "Uma outra grande influência na minha vida: a música. A imagem ilustra a melhor banda de todos os tempos, ou apenas a minha preferida. Não compensa fazer uma lista das bandas que gosto, pois tenho mais coisa pra fazer que ficar listando centenas de nomes e duvido que seria interessante. :) ";
+		musica_var = 0;
+	}else{
+				document.getElementById("musica").innerHTML = "";
+				musica_var = 1;
+	}	
+}
+
+
+var educacao_var = 1;
+function educacaoClick() {
+	if(educacao_var){
+		document.getElementById("educacao").innerHTML = " Me formei no ensino médio com a convicção de que o pior tinha passado. Que ingenuidade, não? ";
+		educacao_var = 0;
+	}else{
+				document.getElementById("educacao").innerHTML = "";
+				educacao_var = 1;
+	}	
+}
+
+
+var usp_var = 1;
+function uspClick() {
+	if(usp_var){
+		document.getElementById("usp").innerHTML = " Entrei na Usp em 2015 e comecei a minha jornada por conhecimento. (Ou a busca pelo objeto da imagem anterior à esquerda...) ";
+		usp_var = 0;
+	}else{
+				document.getElementById("usp").innerHTML = "";
+				usp_var = 1;
+	}	
+}
+
+
+var tenis_var = 1;
+function tenisClick() {
+	if(tenis_var){
+		document.getElementById("tenis").innerHTML = " Embora possua uma presença inconsistente no mundo dos esportes (pelo menos na prática), tenho um grande apreço por eles. Provavelmente nunca serei um atleta, mas gosto de praticar quase qualquer esporte, com uma ênfase especial para o tênis. ";
+		tenis_var = 0;
+	}else{
+				document.getElementById("tenis").innerHTML = "";
+				tenis_var = 1;
+	}	
+}
+
+var interrogacao_var = 1;
+function interrogacaoClick() {
+	if(interrogacao_var){
+		document.getElementById("interrogacao").innerHTML = " É claro que essas não são as únicas coisas presentes na minha vida, mas são algumas das mais importantes, que me definem como pessoa. Se colocar mais, a página talvez fique existencial demais, e não acho que seja esse o intuito. De qualquer forma, ainda tenho muito mais a adicionar a essa minha lista e espero que o ICMC Júnior seja uma delas. ";
+		interrogacao_var = 0;
+	}else{
+				document.getElementById("interrogacao").innerHTML = "";
+				interrogacao_var = 1;
+	}	
+}
+</script>
+
+</body>
+</html>
